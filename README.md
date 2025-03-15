@@ -2,16 +2,18 @@
 
 Lower Grade Glioma (LGG) and Glioblastoma Multiforme (GBM) are primary brain tumors that arise from glial cells. LGG is a slow-growing tumor with a variable prognosis, while GBM is an aggressive, high-grade glioma with poor survival rates. Due to their complex molecular profiles, identifying survival-associated biomarkers is crucial for advancing precision medicine and improving patient outcomes.
 
-![Different grades of gliomas on MRI. Left: High-grade glioma with evidence of enhancement (white-appearing tissue). Middle: Intermediate-grade glioma with slight enhancement. Right: Low-grade glioma without any enhancement.](0.png)
+<p align="center">
+  <img src="0.jpg" alt="Different grades of gliomas on MRI">
+</p>
 
 Aaron Cohen-Gadol, M. D. (2024, October 4). Low-grade glioma: Expert surgeon. Expert Surgeon | Aaron Cohen-Gadol, MD. https://www.aaroncohen-gadol.com/en/patients/glioma/types/low-grade 
 
 <br> <br>
 This project aims to discover key survival markers in LGG and GBM using Flexynesis, a deep-learning-based multi-omics data integration framework.
-![Traffic Signal Detection](1.png)
+![Traffic Signal Detection](1.jpg)
 
 **Flexynesis Framework Documentation by Akalin lab**   
-[[https://doi.org/10.1109/iementech60402.2023.10423520](https://github.com/BIMSBbioinfo/flexynesis)]([https://doi.org/10.1109/iementech60402.2023.10423520](https://github.com/BIMSBbioinfo/flexynesis))
+([https://doi.org/10.1109/iementech60402.2023.10423520](https://github.com/BIMSBbioinfo/flexynesis))
 
 
 
@@ -61,9 +63,6 @@ Key top 10 Survival Associated Markers:
 - Further validation and clinical interpretation are necessary for therapeutic applications.
 
 
-## Feature Visualization
-The following t-SNE visualization provides insight into the feature embedding:
-
 
 ## Installation and Usage
 To run the model, ensure you have the necessary dependencies installed:
@@ -77,7 +76,7 @@ mamba create --name flexynesisenv python==3.13.1
 For training and evaluation, follow the provided scripts in the repository.
 
 ## Conclusion
-This project demonstrates the effectiveness of YOLOv8 in medical imaging for automated bone fracture detection. High precision and recall indicate its potential for clinical applications.
+This project demonstrates the effectiveness of Flexynesis in multi-omics in precision oncology. High precision and recall indicate its potential for clinical applications.
 
 ## License
 **Copyright (c) 2025 Abdullah Elafifi**
